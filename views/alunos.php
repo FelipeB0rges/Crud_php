@@ -21,3 +21,5 @@
     ?>
 </table>
 </div>
+<div style="text-align: center; margin:30px 0">
+<a href="?pagina=inserir_alunos">Inserir Alunos</a></div>

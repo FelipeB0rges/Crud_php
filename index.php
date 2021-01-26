@@ -13,7 +13,9 @@ if (isset($_GET['pagina'])){
 }else{
     $pagina='home';
 }
-
+if ($pagina=='inserir_curso'){
+    include 'views/inserir_curso.php';
+}
 
 if ($pagina=='cursos'){
     include 'views/cursos.php';

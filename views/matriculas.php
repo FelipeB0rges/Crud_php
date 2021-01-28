@@ -11,9 +11,9 @@
         </tr>
 
         <?php
-        while ($linha = mysqli_fetch_array($consulta_cursos)) {
-            echo '<tr style="text-align:center;"><td>' . $linha['nome_curso'] . '</td>';
-            echo '<td>' . $linha['carga_horaria'] . '</td><tr>';
+        while ($linha = mysqli_fetch_array($consulta_cursos_alunos)) {
+            echo '<tr style="text-align:center;"><td>' . $linha['nome'] . '</td>';
+            echo '<td>' . $linha['nome_curso'] . '</td><tr>';
         }
         ?>
     </table>

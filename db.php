@@ -11,6 +11,8 @@ $query_cursos="SELECT * FROM cursos";
 
 $consulta_cursos = mysqli_query($conexao,$query_cursos);
 
+$consulta_cursos = mysqli_query($conexao,$query_cursos);
+
 
 $query_alunos="SELECT * FROM alunos";
 

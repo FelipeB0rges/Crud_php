@@ -16,6 +16,10 @@ if (isset($_GET['pagina'])){
 if ($pagina=='inserir_alunos'){
     include 'views/inserir_alunos.php';
 }
+
+if ($pagina=='inserir_matricula'){
+    include 'views/inserir_matricula.php';
+}
 if ($pagina=='inserir_curso'){
     include 'views/inserir_curso.php';
 }

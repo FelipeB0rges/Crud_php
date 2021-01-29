@@ -12,7 +12,7 @@
 
         <?php
         while ($linha = mysqli_fetch_array($consulta_cursos_alunos)) {
-            echo '<tr style="text-align:center;"><td>' . $linha['nome'] . '</td>';
+            echo '<tr style="text-align:center;"><td>' . $linha['aluno_nome'] . '</td>';
             echo '<td>' . $linha['nome_curso'] . '</td><tr>';
         }
         ?>

@@ -9,7 +9,7 @@ $conexao = mysqli_connect($servidor,$usuario,$senha,$db);
 
 $query_cursos="SELECT * FROM cursos";
 
-$query_cursos_alunos='SELECT  a.nome as aluno_nome, c.nome_curso as nome_curso
+$query_cursos_alunos='SELECT  a.nome as aluno_nome, c.nome_curso as nome_curso, ac.id_aluno_curso as id_aluno_curso
 
 FROM alunos_cursos ac
 

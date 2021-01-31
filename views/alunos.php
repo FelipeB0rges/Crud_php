@@ -15,7 +15,11 @@
         echo '<td>' . $linha['endereco'] . '</td>';
         echo '<td>' . $linha['cidade'] . '</td>';
         echo '<td>' . $linha['estado'] . '</td>';
-        echo '<td>' . $linha['cpf'] . '</td><tr>';
+        echo '<td>' . $linha['cpf'] . '</td>';
+
+        ?>
+        <td><a href="deleta_aluno.php?id_aluno=<?php echo $linha['id_aluno'];?> ">Deletar</a></td></tr>
+    <?php
 
     }
     ?>

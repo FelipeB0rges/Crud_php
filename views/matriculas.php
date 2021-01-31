@@ -1,4 +1,3 @@
-
 <div style="text-align: center;">
     <a href="?pagina=inserir_matricula">Inserir matriculas</a>
 </div>
@@ -13,7 +12,12 @@
         <?php
         while ($linha = mysqli_fetch_array($consulta_cursos_alunos)) {
             echo '<tr style="text-align:center;"><td>' . $linha['aluno_nome'] . '</td>';
-            echo '<td>' . $linha['nome_curso'] . '</td><tr>';
+            echo '<td>' . $linha['nome_curso'] . '</td>';
+        ?>
+            <td><a href="deleta_matricula.php?id_matricula=<?php echo $linha['id_aluno_curso']; ?> ">Deletar</a></td>
+            </tr>
+        <?php
+
         }
         ?>
     </table>

@@ -29,9 +29,6 @@
 
     <label >E-mail</label>
     <input style="width: 20%;" type="text" class="form-control" name="usuario">
-    <label  >Senha</label>
-    <br>
-    <input style="width: 20%;" type="password" class="form-control" name="senha">
     <br>
     <input type="submit" value="login" class="btn btn-success">
 </form>

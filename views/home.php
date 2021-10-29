@@ -24,6 +24,17 @@
     <input type="submit" value="login" class="btn btn-success">
 </form>
 <br>
+
+<form method="post" action="login.php">
+
+    <label >E-mail</label>
+    <input style="width: 20%;" type="text" class="form-control" name="usuario">
+    <label  >Senha</label>
+    <br>
+    <input style="width: 20%;" type="password" class="form-control" name="senha">
+    <br>
+    <input type="submit" value="login" class="btn btn-success">
+</form>
 <?php if(isset($_GET['erro'])){?>
     <div class="alert alert-danger" role="alert">
   Erro
